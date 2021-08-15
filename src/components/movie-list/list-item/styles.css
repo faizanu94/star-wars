@@ -1,0 +1,118 @@
+.list-item-container {
+    padding: 0 0 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e8e8e8;
+    position: relative;
+}
+
+.list-item-container .movie-header h3 {
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    word-break: break-word;
+}
+
+@media (min-width: 768px) {
+    .list-item-container .movie-header h3 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 80%;
+    }
+}
+
+.list-item-container .movie-header h3 .text-normal {
+    font-weight: 400;
+}
+
+.list-item-container .movie-footer {
+    font-size: 13px;
+}
+
+.list-item-container .movie-header p {
+    margin-bottom: 0;
+}
+
+.list-item-container .movie-header,
+.list-item-container .movie-body {
+    margin-bottom: 15px;
+}
+
+.list-item-container .movie-body p {
+    margin-bottom: 0;
+    display: block;
+    max-width: 80%;
+    word-break: break-all;
+}
+
+.list-item-container .movie-footer svg {
+    position: relative;
+    top: -1px;
+    margin-right: 6px;
+    fill: #6c757d;
+}
+
+.list-item-container .meta a {
+    color: currentColor;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.list-container .list-item-container:last-child {
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.list-item-container .author-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.list-item-container .author-img {
+    height: 64px;
+}
+
+.select-menu-list {
+    position: relative;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.select-menu-list .select-menu-item:last-child {
+    border-bottom: none;
+}
+
+.select-menu-item-text:hover {
+    color: #fff;
+    background-color: #ffc107;
+    text-decoration: none;
+}
+
+.select-menu-item-text {
+    cursor: pointer;
+    display: block;
+    border-bottom: 1px solid;
+    text-align: left;
+}
+
+.gender-filter-wrap {
+    position: relative;
+    z-index: 1;
+    float: right;
+}
+
+.gender-select {
+    position: absolute;
+    top: 100%;
+    width: 150px;
+    overflow: hidden;
+    font-size: 14px;
+    background-color: #fff;
+    box-shadow: 0 3px 12px rgba(27, 31, 35, 0.15);
+}
+
+.logo {
+    max-width: 50%;
+}

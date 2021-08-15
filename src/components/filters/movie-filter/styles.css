@@ -1,0 +1,72 @@
+.movie-filter-wrap {
+    position: relative;
+    z-index: 1;
+}
+
+.movie-select {
+    position: absolute;
+    top: 100%;
+    width: 300px;
+    overflow: hidden;
+    font-size: 14px;
+    background-color: #fff;
+    box-shadow: 0 3px 12px rgba(27, 31, 35, 0.15);
+}
+
+.select-menu-header,
+.select-menu-divider {
+    padding: 12px 10px;
+    background: white;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 15px;
+}
+
+.select-menu-header .select-menu-title,
+.select-menu-divider {
+    font-weight: 600;
+    color: #24292e;
+}
+
+.select-menu-filters {
+    background-color: #f4f4f4;
+}
+
+.select-menu-text-filter {
+    padding: 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.select-menu-text-filter input {
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #dfe2e5 !important;
+    padding: 5px 10px !important;
+    border-radius: 3px;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.select-menu-list {
+    position: relative;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.select-menu-list .select-menu-item:last-child {
+    border-bottom: none;
+}
+
+.select-menu-item-text:hover {
+    color: #fff;
+    background-color: #ffc107;
+    text-decoration: none;
+}
+
+.select-menu-item-text {
+    cursor: pointer;
+    display: block;
+    border-bottom: 1px solid;
+    text-align: left;
+}
